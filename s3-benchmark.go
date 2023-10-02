@@ -16,7 +16,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"code.cloudfoundry.org/pivotal-golang/bytefmt"
+	"github.com/pivotal-golang/bytefmt"
 	"io"
 	"io/ioutil"
 	"log"
